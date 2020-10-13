@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 struct student{
-  char name[20];
+  char name[30];
   int roll;
   int marks;
   char address[20];
@@ -10,10 +10,10 @@ struct student{
 
 int main(){
   int n,i;
-  printf("Enter to no of students you want to enter\n");
+  printf("Enter the number of students you want to enter\n");
   scanf("%d",&n);
-  for(i=0; i<n; ++i) {
-  printf("enter the details of student in format name,address,roll,marks\n",i+1);
+  for(i=0; i<n; i++) {
+  printf("Enter the name, address, roll, marks of the student\n",i+1);
   scanf("%s%s%d%d",s[i].name,s[i].address,&s[i].roll,&s[i].marks);
   };
   for(i=0; i<n; ++i) {
