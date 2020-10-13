@@ -6,7 +6,7 @@ struct complex
 	float imag;
 
 };
-void main()
+int main()
 {
 	int i;
 	struct complex sum;
